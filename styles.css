@@ -1,0 +1,122 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body {
+  width: 100%;
+  height: auto;
+  background-size: cover; 
+  background-color: rgb(34 33 71)
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  width: 100%;
+  height: auto;
+  background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.birminghamupdates.com%2Fwp-content%2Fuploads%2F2019%2F10%2FIMG_0220-e1582259038211.jpg&f=1&nofb=1) no-repeat center center fixed; 
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  opacity: 0.3;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  width: 100%;
+  background-color: #f2f2f2;
+  z-index: 2;
+}
+
+#nav-left {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: auto 0px auto 96px;
+  width: 300px;
+}
+
+#nav-right {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: auto 120px auto 0;
+}
+
+nav #logo a img {
+  display: flex;
+  position: relative;
+  height: 90px;
+  margin-bottom: 3px;
+}
+
+span{  
+  display: flex;
+  position: relative;
+  justify-self: center;
+  align-self: center;
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+  font-family: 'Roboto', sans-serif;
+}
+
+.button {
+  margin-right: 20px;
+}
+
+main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 30%;
+  height: auto;
+  margin: auto;
+  z-index: 1;
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+  justify-self: center;
+  color: white;
+}
+
+h1 {
+  font-size: 32px;
+  margin-top: 180px;
+  color: white;
+  font-weight: 600;
+}
+
+h2 {
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+#survey-form {
+  margin-top: 70px;
+  background-color: rgb(34 33 71);
+  opacity: 0.9;
+  width: 100%;
+  height: 2500px;
+  border-radius: 14px;
+  border: 5px solid rgb(1, 1, 39);
+
+}
+
+footer {
+  position: absolute;
+  width: 100vw;
+  height: 300px;
+  background-color: green;
+  margin-top: 100px;
+}
