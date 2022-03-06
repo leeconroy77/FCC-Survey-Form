@@ -17,8 +17,8 @@
           </a>
         </div>
         <span>The Free Coding Bootcamp</span>
-     </div>
-     <div id="nav-right">
+      </div>
+      <div id="nav-right">
        <div class="nav-button">
          <a href="https://www.schoolofcode.co.uk/" target="_blank">Home</a>
        </div>
@@ -40,138 +40,145 @@
        <div class="nav-big-button">
         <a href="https://schoolofcode.typeform.com/to/Z3hPHtcO?typeform-source=www.schoolofcode.co.uk" target="_blank">Apply now!</a>
        </div>
-     </div>
+      </div>
     </nav>
     <header>
-      <h1>Launch Your Coding Journey</h1>
-      <div id="underline"></div>
-      <p><i>Thank you for showing an interest in applying for a place on one of our fulltime, intensive Bootcamps. A quick couple of questions about you, and we'll get you started.</i>...</p>
+        <div id="header-container">
+          <h1>Launch Your Coding Journey</h1>
+        </div>
     </header>
-    <main id="container">       
-      <form id="survey-form">
-        <div class="form-group">
-          <label id="first-name-label" for="name">First Name</label>
-          <input type="text" name="name" id="first-name" class="form-control" placeholder="Enter your first name" required>
+    <main>
+        <div id="sub-header">
+          <p>Thank you for showing an interest in applying for a place on one of our fulltime, intensive Bootcamps. A quick couple of questions about you, and we'll get you started....</p>
         </div>
-        <div class="form-group">
-          <label id="last-name-label" for="name">Last Name</label>
-          <input type="text" name="name" id="last-name" class="form-control" placeholder="Enter your last name" required>
-        </div>
-        <div class="form-group">
-          <label id="email-label" for="email">Email</label>
-          <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required>
-        </div>
-        <div class="form-group">
-            <p>What is your age group?</p>
-            <label class="radio-button">
-              <input name="user-age" value="19-24" type="radio" class="input-radio" checked>19-24
-            </label>
-            <label class="radio-button">
-              <input name="user-age" value="25-34" type="radio" class="input-radio" checked>25-34
-            </label>
-            <label class="radio-button">
-              <input name="user-age" value="35-44" type="radio" class="input-radio" checked>35-44
-            </label>
-            <label class="radio-button"class="radio-button">
-              <input name="user-age" value="45-54" type="radio" class="input-radio" checked>45-54
-            </label>
-            <label class="radio-button">
-              <input name="user-age" value="55-64" type="radio" class="input-radio" checked>55-64
-            </label>
-            <label class="radio-button">
-              <input name="user-age" value="65+" type="radio" class="input-radio" checked>65+
-            </label>
-        </div>
-        <div class="form-group">
-           <p>What is your gender?</p>
+      
+  
+      <div id="form-container">       
+        <form id="survey-form">
+          <div class="form-group">
+            <label id="first-name-label" for="name">First Name</label>
+            <input type="text" name="name" id="first-name" class="form-control" placeholder="Enter your first name" required>
+          </div>
+          <div class="form-group">
+            <label id="last-name-label" for="name">Last Name</label>
+            <input type="text" name="name" id="last-name" class="form-control" placeholder="Enter your last name" required>
+          </div>
+          <div class="form-group">
+            <label id="email-label" for="email">Email</label>
+            <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required>
+          </div>
+          <div class="form-group">
+              <p>What is your age group?</p>
+              <label class="radio-button">
+                <input name="user-age" value="19-24" type="radio" class="input-radio" checked>19-24
+              </label>
+              <label class="radio-button">
+                <input name="user-age" value="25-34" type="radio" class="input-radio" checked>25-34
+              </label>
+              <label class="radio-button">
+                <input name="user-age" value="35-44" type="radio" class="input-radio" checked>35-44
+              </label>
+              <label class="radio-button"class="radio-button">
+                <input name="user-age" value="45-54" type="radio" class="input-radio" checked>45-54
+              </label>
+              <label class="radio-button">
+                <input name="user-age" value="55-64" type="radio" class="input-radio" checked>55-64
+              </label>
+              <label class="radio-button">
+                <input name="user-age" value="65+" type="radio" class="input-radio" checked>65+
+              </label>
+          </div>
+          <div class="form-group">
+            <p>What is your gender?</p>
+            <select name="gender" id="dropdown" class="form-control dropdown-list" required>
+              <option disabled selected value>Select an option</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Non Binary">Non-binary</option>
+              <option value="Prefer not to say">Prefer not to say</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <p>What region are you applying from?</p>
           <select name="gender" id="dropdown" class="form-control dropdown-list" required>
             <option disabled selected value>Select an option</option>
-            <option value="Male">Male</option>
-            <option value="Female">Female</option>
-            <option value="Non Binary">Non-binary</option>
-            <option value="Prefer not to say">Prefer not to say</option>
+            <option value="North West">North West</option>
+            <option value="North East">North East</option>
+            <option value="Yorkshire and The Humber">Yorkshire and The Humber</option>
+            <option value="East Midlands">East Midlands</option>
+            <option value="West Midlands">West Midlands</option>
+            <option value="London">London</option>
+            <option value="East of England">East of England</option>
+            <option value="South East">South East</option>
+            <option value="South West">South West</option>
             <option value="Other">Other</option>
           </select>
         </div>
         <div class="form-group">
-          <p>What region are you applying from?</p>
-         <select name="gender" id="dropdown" class="form-control dropdown-list" required>
-           <option disabled selected value>Select an option</option>
-           <option value="North West">North West</option>
-           <option value="North East">North East</option>
-           <option value="Yorkshire and The Humber">Yorkshire and The Humber</option>
-           <option value="East Midlands">East Midlands</option>
-           <option value="West Midlands">West Midlands</option>
-           <option value="London">London</option>
-           <option value="East of England">East of England</option>
-           <option value="South East">South East</option>
-           <option value="South West">South West</option>
-           <option value="Other">Other</option>
-         </select>
-       </div>
-       <div class="form-group">
-        <p>What best describes your situation?</p>
-       <select name="gender" id="dropdown" class="form-control dropdown-list" required>
-         <option disabled selected value>Select an option</option>
-         <option value="self-employed, but looking to change career">Self-employed, but looking to change career</option>
-         <option value="unemployed, and looking to start a career">Unemployed, and looking to start a career</option>
-         <option value="employed, but looking to change career">Employed, but looking to change career</option>
-         <option value="finishing college/school, and looking to start a career">Finishing college/school, and looking to start a career</option>
-         <option value="graduating university, and looking to start a career">Graduating university, and looking to start a career</option>
-         <option value="leaving military service, and looking for a new career">Leaving military service, and looking for a new career</option>
-         <option value="Other">Other</option>
-       </select>
-     </div>
-     <div class="form-group">
-        <p>Where have you heard about us? (Check all that apply)</p> 
-        <label>
-          <input name="prefer" value="Internet search" type="checkbox" class="input-checkbox">Internet search (e.g. Google, Bing, DuckDuckGo)
-        </label>
-        <label>
-          <input name="prefer" value="Facebook" type="checkbox" class="input-checkbox">Facebook
-        </label>
-        <label>
-          <input name="prefer" value="Twitter" type="checkbox" class="input-checkbox">Twitter
-        </label>
-        <label>
-          <input name="prefer" value="Instagram" type="checkbox" class="input-checkbox">Instagram
-        </label>
-        <label>
-          <input name="prefer" value="LinkedIn" type="checkbox" class="input-checkbox">LinkedIn
-        </label>
-        <label>
-          <input name="prefer" value="Word of mouth" type="checkbox" class="input-checkbox">Word of mouth (Family / Friends / Colleagues)
-        </label>
-        <label>
-          <input name="prefer" value="Recommended by a previous bootcamper" type="checkbox" class="input-checkbox">Recommended by a previous bootcamper
-        </label>
-        <label>
-          <input name="prefer" value="A blog post" type="checkbox" class="input-checkbox">A blog post
-        </label>
-        <label>
-          <input name="prefer" value="Newspaper" type="checkbox" class="input-checkbox">Newspaper
-        </label>
-        <label>
-          <input name="prefer" value="Email newsletter" type="checkbox" class="input-checkbox">Email newsletter
-        </label>
-        <label>
-          <input name="prefer" value="Other" type="checkbox" class="input-checkbox">Other
-        </label>        
-     </div>
-     <div class="form-group">
-      <label id="tel-number" for="number">What is your phone number?</label>
-      <input type="text" name="number" id="number" class="form-control" placeholder="Enter your telephone number" required>
+          <p>What best describes your situation?</p>
+        <select name="gender" id="dropdown" class="form-control dropdown-list" required>
+          <option disabled selected value>Select an option</option>
+          <option value="self-employed, but looking to change career">Self-employed, but looking to change career</option>
+          <option value="unemployed, and looking to start a career">Unemployed, and looking to start a career</option>
+          <option value="employed, but looking to change career">Employed, but looking to change career</option>
+          <option value="finishing college/school, and looking to start a career">Finishing college/school, and looking to start a career</option>
+          <option value="graduating university, and looking to start a career">Graduating university, and looking to start a career</option>
+          <option value="leaving military service, and looking for a new career">Leaving military service, and looking for a new career</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+          <p>Where have you heard about us? (Check all that apply)</p> 
+          <label>
+            <input name="prefer" value="Internet search" type="checkbox" class="input-checkbox">Internet search (e.g. Google, Bing, DuckDuckGo)
+          </label>
+          <label>
+            <input name="prefer" value="Facebook" type="checkbox" class="input-checkbox">Facebook
+          </label>
+          <label>
+            <input name="prefer" value="Twitter" type="checkbox" class="input-checkbox">Twitter
+          </label>
+          <label>
+            <input name="prefer" value="Instagram" type="checkbox" class="input-checkbox">Instagram
+          </label>
+          <label>
+            <input name="prefer" value="LinkedIn" type="checkbox" class="input-checkbox">LinkedIn
+          </label>
+          <label>
+            <input name="prefer" value="Word of mouth" type="checkbox" class="input-checkbox">Word of mouth (Family / Friends / Colleagues)
+          </label>
+          <label>
+            <input name="prefer" value="Recommended by a previous bootcamper" type="checkbox" class="input-checkbox">Recommended by a previous bootcamper
+          </label>
+          <label>
+            <input name="prefer" value="A blog post" type="checkbox" class="input-checkbox">A blog post
+          </label>
+          <label>
+            <input name="prefer" value="Newspaper" type="checkbox" class="input-checkbox">Newspaper
+          </label>
+          <label>
+            <input name="prefer" value="Email newsletter" type="checkbox" class="input-checkbox">Email newsletter
+          </label>
+          <label>
+            <input name="prefer" value="Other" type="checkbox" class="input-checkbox">Other
+          </label>        
+      </div>
+      <div class="form-group">
+        <label id="tel-number" for="number">What is your phone number?</label>
+        <input type="text" name="number" id="number" class="form-control" placeholder="Enter your telephone number" required>
+      </div>
+      <div class="form-group">
+        <p>Why do you want to join the School Of Code?</p> 
+        <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" id="submit" class="submit-button">
+          Submit
+        </button>
+      </div>
+        </form>
     </div>
-    <div class="form-group">
-      <p>Why do you want to join the School Of Code?</p> 
-      <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
-    </div>
-    <div class="form-group">
-      <button type="submit" id="submit" class="submit-button">
-        Submit
-      </button>
-    </div>
-      </form>
-    </main>  
+  </main>  
 </body>
 </html>
